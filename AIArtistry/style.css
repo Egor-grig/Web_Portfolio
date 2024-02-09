@@ -1,0 +1,80 @@
+html{
+    font-size: 16px;
+    color: rgb(23, 0, 51);
+    letter-spacing: 0%;
+}
+
+h1, h2, h3, h4{
+    font-family: "Visby";
+    font-weight: 900;
+}
+
+h1{
+    font-size: 68px;
+    line-height: 78px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 24px;
+}
+
+b{
+    color: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+}
+
+ul{
+    display: flex;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+.container{
+    margin: auto;
+    width: 1350px;
+}
+
+.slogan{
+    font-family: "Visby";
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+    margin-bottom: 10px;
+}
+
+.btn{
+    padding: 14px 30px;
+    border: 2px solid linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+    border-radius: 28px;
+    background-color: transparent;
+}
+
+.btn-active{
+    background-color: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+}
+
+.square-icon{
+    padding: 22px;
+    border-radius: 10px;
+    background-color: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+}
