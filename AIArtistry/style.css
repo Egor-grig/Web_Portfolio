@@ -1,3 +1,6 @@
+@import url(Font/visby-cufonfonts-webfont/style.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 html{
     font-size: 16px;
     color: rgb(23, 0, 51);
@@ -5,8 +8,7 @@ html{
 }
 
 h1, h2, h3, h4{
-    font-family: "Visby";
-    font-weight: 900;
+    font-family: "Visby Heavy";
 }
 
 h1{
@@ -32,7 +34,6 @@ h4{
 
 p{
     font-family: "Poppins";
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -54,27 +55,72 @@ section{
 }
 
 .slogan{
-    font-family: "Visby";
+    font-family: "Visby Medium";
     color: transparent;    
-	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
     margin-bottom: 10px;
 }
 
 .btn{
+    font-family: "Visby Medium";
     padding: 14px 30px;
-    border: 2px solid linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+    border: 2px solid rgb(138, 53, 242);
     border-radius: 28px;
     background-color: transparent;
 }
 
 .btn-active{
-    background-color: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+    background: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+    color: white;
 }
 
 .square-icon{
     padding: 22px;
     border-radius: 10px;
     background-color: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+}
+
+.logo{
+    font-family: "Visby Heavy";
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0%;
+}
+
+.logo b{
+    color: transparent;    
+	background-clip: text;
+	background-image: linear-gradient(90.00deg, rgb(138, 53, 242),rgb(188, 75, 223));
+}
+
+.header{
+    background-image: url(img/bg.png);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-block{
+    margin-top: 25px;
+}
+
+.nav-items{
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 24px;
+    width: 416px;
+    height: 100%;
+    margin-right: 25px;
+}
+
+.acc-icon{
+    padding: 14px;
+    margin-right: 25px;
+    border-radius: 28px;
+    border: 2px solid rgb(138, 53, 242);
 }
