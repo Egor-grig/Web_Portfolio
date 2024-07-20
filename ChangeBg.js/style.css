@@ -1,0 +1,14 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'consolas';
+    background-color: aqua;
+}
+
+body .container{
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 50px;
+}
