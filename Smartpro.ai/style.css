@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html{
+    font-family: "Open Sans", consolas;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button{
+    border: none;
+}
+
+b{
+    color: rgb(140, 97, 242);
+}
+
+.container{
+    width: 1146px;
+}
+
+.header{
+    height: 878px;
+    width: 100%;
+    background-image: url(img/Rectangle4555.jpeg);
+    margin-bottom: 373px;
+}
+
+.nav{
+    padding: 2rem 2rem;
+    color: rgb(120, 130, 142);
+    margin-bottom: 50px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li:not(:last-child){
+    margin-right: 32px;
+}
+
+.nav-items li{
+    position: relative;
+}
+.nav-items li::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    bottom: -46px;
+    left: 0;
+    background-color: rgb(0, 128, 252);
+    transition: all 0.3s ease;
+}
+
+.nav-items li:hover{
+    color: rgb(0, 128, 252);
+    cursor: pointer;
+}
+
+.nav-items li:hover::after{
+    width: 100%;
+}
+
+.btn{
+    color: rgb(120, 130, 142);
+}
+
+.login .btn:first-child{
+    margin-right: 26px;
+}
+.btn-active{
+    padding: 14px 28px;
+    border: 1px solid rgb(140, 97, 242);
+    border-radius: 8px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-active:hover{
+    background-color: rgb(140, 97, 242);
+}
+
+.title{
+    text-align: center;
+    margin: auto;
+}
+
+.slogan{
+    margin-bottom: 16px;
+    color: rgb(140, 97, 242);
+}
+
+.title .slogan{
+    margin-bottom: 24px;
+    color: rgb(140, 97, 242);
+}
+
+.title h1{
+    margin-bottom: 24px;
+    color: white;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.title h1 b{
+    color: rgb(140, 97, 242);
+}
+
+.subtitle{
+    color: rgb(139, 144, 169);
+    line-height: 150%;
+}
+
+.title .subtitle{
+    margin-bottom: 28px;
+    color: rgb(139, 144, 169);
+    line-height: 150%;
+}
+
+.title button{
+    background-color: rgb(140, 97, 242);
+    margin-bottom: 110px;
+}
+
+.title .pic1{
+    margin-left: 50px;
+}
+
+.sponsors{
+    margin: 0 auto;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors .slogan{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(120, 130, 142);
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sponsors-items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.partners{
+    margin: 0 auto;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.partners h2{
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.partners h2 b{
+    color: rgb(140, 97, 242);
+}
+
+.partners .subtitle{
+    color: rgba(120, 130, 142, 70%);
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 56px;
+}
+
+.partners_logo{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.partners_logo .flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 106px;
+}
+
+.partners_logo .flex2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners_logo li{
+    padding: 25px 26px;
+    border: 2px solid white;
+    box-shadow: 0px 20px 32px 0px rgba(10, 14, 26, 0.1);
+    border-radius: 25px;
+}
+
+.present{
+    background: rgb(10, 14, 26);
+    margin-bottom: 130px;
+}
+
+.present .container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.present img{
+    margin-left: -56px;
+    margin-right: 80px;
+}
+
+.present h2{
+    color: white;
+    font-size: 49px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.present h2 b{
+    color: rgb(140, 97, 242);
+}
+
+.present .subtitle{
+    color: rgb(120, 130, 142);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.present .btn-active{
+    background: linear-gradient(-88.24deg, rgb(1, 128, 252) -62.683%,rgb(153, 51, 233) 99.562%);
+}
+
+.present-items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 93px;
+}
+
+.present-items h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.present-items p{
+    color:rgb(120, 130, 142);
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.present-items li{
+    position: relative;
+}
+
+.present-items li::after{
+    position: absolute;
+    top: -36px;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 285px;
+    border: 1px solid transparent;
+    border-radius: 21px;
+}
+
+.present-items .item1::after{
+    background: linear-gradient(90deg, rgba(153,51,233,1) 40%, rgba(66,62,80,1) 40%);
+}
+
+.present-items .item2::after{
+    background: linear-gradient(90deg, rgba(153,51,233,1) 60%, rgba(66,62,80,1) 60%);
+}
+
+.present-items .item3::after{
+    background-color: rgba(153,51,233,1);
+}
+
+.about{
+    margin-bottom: 130px;
+}
+
+.about .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about h2{
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.about .block1{
+    margin-right: 89px;
+    margin-bottom: 49px;
+}
+
+
+.about h2 b{
+    color: rgb(140, 97, 242);
+}
+
+.about .subtitle{
+    margin-bottom: 12px;
+}
+
+.about a{
+    text-decoration: none;
+    color: rgb(0, 128, 252);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.about a img{
+    vertical-align: middle;
+}
+
+.about .ai{
+    margin-bottom: 40px;
+}
+
+.about-list{
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-list h3{
+    color: rgb(10, 14, 26);
+    font-family: Open Sans;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.about-list .slogan{
+    color: rgb(10, 14, 26);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+.about-list li:not(:last-child){
+    margin-right: 30px;
+}
+
+.about-list li{
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.about-list li:hover{
+    background-color: rgb(140, 97, 242);
+
+    h3, .slogan{
+        color: white;
+    }
+    .subtitle{
+        color: rgb(216, 216, 216);
+    }
+}
+
+.blog{
+    margin-bottom: 130px;
+}
+
+.blog .container{
+    margin: 0 auto;
+}
+
+.blog .headline{
+    text-align: center;
+    margin-bottom: 269px;
+}
+
+.blog .headline h2{
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.blog-cards{
+    display: flex;
+}
+
+.blog-cards .card{
+    position: relative;
+    padding: 40px 35px 33px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 32px 0px rgba(10, 14, 26, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.blog-cards .card:not(:last-child){
+    margin-right: 56px;
+}
+
+.blog-cards .card .bg{
+    position: absolute;
+    z-index: -100;
+    top: -213px;
+    left: -9px;
+}
+
+.blog-cards .date{
+    position: absolute;
+    top: -25px;
+    right: 24px;
+    z-index: 10;
+    padding: 12px 17px;
+    width: 56px;
+    background-color: rgb(115, 57, 245);
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.blog-cards .icon{
+    width: 16px; height: 16px;
+    margin-right: 4px;
+}
+
+.blog-cards .autor, .comment{
+    display: inline-block;
+}
+
+.blog-cards .autor{
+    margin-right: 12px;
+}
+
+.blog-cards .comment{
+    margin-bottom: 12px;
+}
+
+.card h3{
+    color: rgb(10, 14, 26);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.card .subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    border-bottom: 2px solid rgb(231, 231, 231);
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+
+.card .more{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.card .more img{
+    background-color: rgb(115, 57, 245);
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.top{
+    background-color: rgb(10, 14, 25);
+    padding: 150px 0;
+}
+
+.top .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h2{
+    color: white;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.top .subtitle{
+    margin-bottom: 32px;
+}
+
+.top button{
+    background: linear-gradient(-88.24deg, rgb(1, 128, 252) -62.683%,rgb(153, 51, 233) 99.562%);
+}
+
+.FAQ{
+    height: 1290px;
+    padding-top: 130px;
+    background: rgb(246, 246, 248);
+}
+
+.FAQ .container{
+    margin: 0 auto;
+}
+
+.FAQ .container .slogan, h2{
+    text-align: center;
+}
+
+.FAQ h2{
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 67px;
+}
+
+.FAQ-items{
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.FAQ-items .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 28px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.FAQ-items .item:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.leads{
+    position: relative;
+    display: flex;
+    background-color: rgb(115, 57, 245);
+    border-radius: 24px;
+    padding: 66px 56px;
+}
+
+.leads div{
+    width: 466px;
+    align-items: center;
+}
+
+.leads h3{
+    color: white;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.leads .subtitle{
+    color: rgb(216, 216, 216);
+    margin-bottom: 24px;
+}
+
+.leads button{
+    border: none;
+    background-color: black;
+}
+
+.leads button:hover{
+    background-color: rgb(10, 14, 26);;
+}
+
+.leads img{
+    position: absolute;
+    top: -40px;
+    right: 73px;
+    height: 430px;
+}
+
+.footer{
+    padding-top: 330px;
+    background-color: black;
+    padding-bottom: 32px;
+}
+
+.footer h3{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.footer .container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 32px;
+}
+
+.foot-block li img{
+    padding: 8px;
+}
+
+.foot-block .subtitle{
+    margin-bottom: 24px;
+}
+
+.foot-block .contact{
+    display: flex;
+}
+
+.foot-block .contact li{
+    border-radius: 30px;
+    border: 1px solid rgba(120, 130, 142, 0.2);
+    background: rgba(115, 57, 245, 0.12);
+}
+
+.foot-block .contact li:not(:last-child){
+    margin-right: 16px;
+}
+
+.navigation li{
+    color: rgb(120, 130, 142);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.navigation li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    background: rgb(26, 20, 41);
+    border-radius: 6px;
+    padding: 6px 6px 6px 16px;
+}
+
+.form input{
+    width: 344px;
+    border: none;
+    background-color: transparent;
+}
+
+.form button{
+    border: none;
+    padding: 15px;
+    background: rgb(115, 57, 245);
+}
+
+.copyright{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(120, 130, 142);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
